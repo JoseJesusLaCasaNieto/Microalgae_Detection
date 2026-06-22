@@ -15,6 +15,15 @@ This directory contains the scientific papers, journals, and reading materials c
 *   **Brief Summary:**
     This review addresses global food insecurity and freshwater scarcity by evaluating microalgae as a sustainable protein alternative with a low blue-water footprint (capable of growing in brackish water, seawater, or wastewater). While large-scale deployment faces economic and technical constraints, the paper highlights how artificial intelligence (AI), machine learning (ML), and Internet of Things (IoT) sensing can overcome cultivation bottlenecks and improve resource efficiency. It distinguishes itself by linking alternative proteins with environmental sustainability within the Water-Food-Energy nexus, utilizing systems biology and multi-omics datasets to build robust ML models.
 
+### Fluorescence-assisted image analysis of freshwater microalgae
+*   **Authors / Source:** Ross F. Walker, Kanako Ishikawa, Michio Kumagai. Journal of Microbiological Methods (2002), 51(2), 149–162.
+*   **Key Topics:** Image Analysis, Fluorescence, Automatic Microalgae Classification, Computer Vision, Microscopic Image Processing, Phytoplankton.
+*   **Internal PhD Notes:** 
+    *   **Source:** Recommended by my PhD supervisors.
+    *   **Utility:** An early methodological reference on the detection and automatic classification of microalgae using computer vision techniques. It can serve as a historical antecedent to current AI-based systems for taxonomic identification and automated environmental sample analysis.
+*   **Brief Summary:**
+    This study develops an automated image analysis system to detect and classify freshwater microalgae using their natural autofluorescence under epifluorescence illumination. Fluorescence enables the localization of microalgae even in complex samples containing sediments, detritus, and other organisms that hinder analysis through conventional microscopy. The authors combine fluorescence and grayscale images, applying image-processing techniques such as morphological segmentation, template matching, and seeded region growing to correct for displacements and deformations of organisms between image acquisitions. Subsequently, they extract 120 morphological and textural features and select an optimal subset for automatic classification using a Bayesian classifier. The system achieved an accuracy greater than 97% in distinguishing between the cyanobacterial genera Anabaena and Microcystis. This study represents a precursor to modern automated microalgae classification approaches, demonstrating how the combination of fluorescence imaging and computational analysis can drastically reduce human intervention in environmental monitoring.
+
 <br>
 
 ---
